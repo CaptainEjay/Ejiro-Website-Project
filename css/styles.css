@@ -73,10 +73,11 @@
   }
 
   .skill-row {
-    width: 55%;
-    margin: 100px auto;
+    width: 50%;
+    margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2.0;
+    overflow: auto;
   }
 
   .skill-picture1 {
@@ -86,7 +87,7 @@
   }
 
   .skill-picture2 {
-    width: 25%;
+    width: 20%;
     float: right;
     margin-left: 30px;
   }
