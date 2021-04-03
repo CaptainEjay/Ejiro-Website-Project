@@ -22,11 +22,15 @@
     color: #11999E;
   }
 
+  p {
+    line-height: 2.0;
+  }
+
   hr {
-    display: inline-block;
     border: 0;
     border-top: 5px dotted #eaf6f6;
     width: 5%;
+    margin: 100px auto;
   }
 
   .top-container {
@@ -72,11 +76,15 @@
     width: 150px;
   }
 
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
+
   .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2.0;
     overflow: auto;
   }
 
@@ -93,36 +101,56 @@
   }
 
   .btn {
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 10px;
-   color: #FFFFFF;
-   font-family: Helvetica;
-   font-size: 20px;
-   font-weight: 100;
-   padding: 10px;
-   background-color: #66BFBF;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin: 50px;
-}
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #66BFBF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 50px;
+  }
 
-.bottom-container {
-  background-color: #66BFBF;
-  padding: 40px;
+.btn:hover {
+  border: solid #33EDEB 1px;
+  background: #1ED0BA;
+  background-image: -webkit-linear-gradient(top, #1ED0BA, #3DF6DE);
+  background-image: -moz-linear-gradient(top, #1ED0BA, #3DF6DE);
+  background-image: -ms-linear-gradient(top, #1ED0BA, #3DF6DE);
+  background-image: -o-linear-gradient(top, #1ED0BA, #3DF6DE);
+  background-image: -webkit-gradient(to  , #1ED0BA, #3DF6DE);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
 }
+  .bottom-container {
+    background-color: #66BFBF;
+    padding: 40px;
+  }
 
-.copyright {
-  color: #EAF6F6;
-}
+  .copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
 
   .footer-link {
     color: #11999E;
-    margin: 10px;
+    font-family:'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
   }
 
+.footer-link:hover {
+  color: #EAF6F6;
+}
   .pro {
     text-decoration: underline;
   }
